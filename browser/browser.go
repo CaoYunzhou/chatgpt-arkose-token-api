@@ -27,7 +27,7 @@ var (
 	bxReadyChannel   = make(chan bool)
 	proxy            string
 	page             playwright.Page
-	Port             = 8081
+	Port             = 8080
 )
 
 //goland:noinspection GoUnhandledErrorResult,SpellCheckingInspection,HttpUrlsUsage
